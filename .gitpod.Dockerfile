@@ -2,7 +2,7 @@ FROM gitpod/workspace-full
 
 USER gitpod
 
-RUN sudo node npm install -g yo gulp-cli generator-teams@preview
+RUN sudo npm install -g yo gulp-cli generator-teams@preview
 
 # Install custom tools, runtime, etc. using apt-get
 # For example, the command below would install "bastet" - a command line tetris clone:
