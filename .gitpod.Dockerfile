@@ -3,8 +3,8 @@ FROM gitpod/workspace-full
 USER gitpod
 
 RUN sudo apt-get update && \
-    sudo apt-get -q upgrade && \
-    sudo apt-get install -y nodejs npm && \
+    sudo apt-get -y -q upgrade && \
+    sudo apt-get install -y -q nodejs npm && \
     sudo npm install -g yo gulp-cli generator-teams@preview
 
 # Install custom tools, runtime, etc. using apt-get
