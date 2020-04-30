@@ -2,7 +2,7 @@ FROM gitpod/workspace-full
 
 USER gitpod
 
-RUN bash -c ". ~/.nvm/nvm-lazy.sh && npm install -g yo gulp-cli generator-teams@preview"
+RUN bash -c ". ~/.nvm/nvm-lazy.sh && npm install -g yo gulp-cli generator-teams"
 
 # Install custom tools, runtime, etc. using apt-get
 # For example, the command below would install "bastet" - a command line tetris clone:
