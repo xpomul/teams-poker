@@ -5,7 +5,7 @@ USER gitpod
 #RUN sudo apt-get update && \
 #    sudo apt-get -y -q upgrade && \
 #    sudo apt-get install -y -q nodejs npm && \
-RUN    sudo npm install -g yo gulp-cli generator-teams@preview
+#RUN    sudo npm install -g yo gulp-cli generator-teams@preview
 
 # Install custom tools, runtime, etc. using apt-get
 # For example, the command below would install "bastet" - a command line tetris clone:
